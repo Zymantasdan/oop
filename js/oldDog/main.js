@@ -2,11 +2,13 @@ import { Dog } from './Dog.js';
 
 const rexius = new Dog('Rexas', 'rudas', 'vokieciu aviganis');
 const brisius = new Dog('Brisius', 'pilkas', 'lietuviu');
+const pilkis = new Dog('Pilkis', 'pilka', 'pilkasis bisonas' )
 
 
-// jei noriu issitraukti brisius vardas
+// jei noriu issitraukti brisius vardas ir jame esantys sarasai
 console.log(rexius);
 console.log(brisius);
+console.log(pilkis);
 
 console.log(rexius.breed);
 console.log(brisius.breed);
@@ -15,6 +17,7 @@ console.log('.........................');
 // metodas introduce-prisistatyk, tarsi funkcija ivestis clonsole.log isvestis cia.
 rexius.introduce();
 brisius.introduce();
+pilkis.introduce();
 
 console.log(rexius.speed);
 
