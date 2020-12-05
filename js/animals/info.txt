@@ -1,0 +1,2 @@
+- jeigu turi struktura pradek nuo tevinio ir eik i vaikus
+-jeigu neturi strukturos nuo apacios.

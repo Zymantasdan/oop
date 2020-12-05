@@ -1,7 +1,9 @@
-class Pet {
+class Pet { /*pet tevinis uzdeda savybes visiems, kas turi isskirtinumus uzsiraso ant vaikinio */
     constructor(name, furColor) {
         this.name = name;
         this.fur = furColor;
+        this.voice = 'Miau au'; /*tevine klase turi tureti ta pacia savybe */
+        this.loyal = false;
     }
 
     introduce() {
